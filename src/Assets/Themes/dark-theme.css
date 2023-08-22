@@ -1,0 +1,20 @@
+/* light-theme.css */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --hover-button-color: rgba(219, 170, 175, 0.7);
+    --primary-font-color: #333;
+    --title-font: 'Space Mono', monospace;
+    
+    --small-font-size: 16px;
+    --medium-font-size: 18px;
+    --medium1-font-size: 24px;
+    --large-font-size: 48px;
+    
+    --gradient-first-color: rgba(220, 192, 252, 0.822);
+    --gradient-second-color: rgba(248, 236, 125, 0.7);
+    --gradient-third-color: rgba(206, 102, 201, 0.7);
+  }
+  

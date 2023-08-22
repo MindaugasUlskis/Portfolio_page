@@ -1,0 +1,25 @@
+
+
+.curvedTop {
+    position: absolute;
+    bottom: -27px; 
+    left: 1px;
+    width: 100vw;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+
+    
+}
+
+.curvedTop svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 47px;
+}
+
+.curvedTop .shape-fill {
+    fill: #DCC0FC;
+}
+

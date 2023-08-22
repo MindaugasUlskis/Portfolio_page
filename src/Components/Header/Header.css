@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+    position: absolute;
+    top: 5%; /* Adjust this value to move the header down */
+    left: 15%;
+    right: 15%;
+    z-index: +1;
+    border: 1px solid black;
+  }
+  
+  .header-left {
+    font-size: 32px; /* Change the font size */
+  font-family: 'Arial', sans-serif; /* Change the font family */
+    margin-bottom: 5px; /* Adjust this value for vertical centering */
+    
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 25px;
+    align-items: center; /* Align buttons vertically */
+    border: 1px solid black;
+  }
+  .header-right button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 24px; /* Change the font size */
+  font-family: 'Helvetica', sans-serif; /* Change the font family */
+    cursor: pointer;
+    position: relative;
+    color: #333;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added opacity transition */
+}
+
+.header-right button:hover {
+  color: rgba(219, 170, 175, 0.7);
+}
+  
+  .header-right button::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the border distance */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.5s ease-in-out, ;
+  }
+  
+  .header-right button:hover::after {
+    background-color: rgba(219, 170, 175, 0.7); /* Color for the border on hover */
+    color: rgba(219, 170, 175, 0.7);
+  }
+  .CurvedTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: +1;
+    border: 1px solid black;
+}
+
+.CurvedTop svg {
+    position: relative;
+    display: block;
+    width: calc(141% + 1.3px);
+    height: 69px;
+}
+
+.CurvedTop .shape-fill {
+    fill: #FFFFFF;
+}

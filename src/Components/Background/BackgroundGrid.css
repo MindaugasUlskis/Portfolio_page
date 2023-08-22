@@ -1,0 +1,23 @@
+body {
+  overflow: auto; /* Remove scroll bars */
+  border: 1px solid black; /*DELETE AFTER*/
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(220, 192, 252, 0.822) 0%,
+    rgba(248, 236, 125, 0.7) 50%,
+    rgba(206, 102, 201, 0.7) 100%
+  );
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: background-image 5s ease-in-out;
+  border: 1px solid black; /*DELETE AFTER*/
+}
